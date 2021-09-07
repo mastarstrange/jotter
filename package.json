@@ -1,0 +1,18 @@
+{
+  "name": "jotdown",
+  "version": "1.0.0",
+  "description": "nice simple note taker",
+  "main": "app/server",
+  "scripts": {
+    "test": "nodemon"
+  },
+  "author": "mastarstrange",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

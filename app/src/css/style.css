@@ -1,0 +1,86 @@
+/*? === Google Font ===*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+/*? === Body CSS ===*/
+body {
+  text-align: center;
+  position: relative;
+}
+
+/* I haven't found a good alternative to theese things yet :( */
+button.inActive {
+  display: none;
+}
+textarea.inActive {
+  display: none;
+}
+
+/* header css */
+div.header {
+  margin: auto;
+  margin-top: 30px;
+}
+
+/* Styling for the hovering refresh button */
+#rnotebtn {
+  font-size: 15px;
+  box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1;
+}
+
+/* styling for single note card */
+div.jotstyle {
+  border-radius: 5px;
+  padding: 10px 13px;
+  margin: 15px 0 25px 0;
+  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* styling for the edit buttons */
+div.jotstyle .btn {
+  border-radius: 40px;
+  padding: 6px 10px;
+  font-size: 15px;
+  box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.1);
+  float: right;
+  top: -12px;
+  position: relative;
+  margin: 3px;
+}
+
+/* styling for container for all notes */
+div.notedisplay {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+/* styling for the notecard text */
+div.jotstyle p.ntext {
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+div.footer p {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 5px;
+}
+img.bgimg {
+  max-width: 120px;
+  min-width: 80px;
+  width: 25%;
+  height: auto;
+  position: absolute;
+  /* float: right; */
+  top: -40px;
+  left: 0px;
+}
