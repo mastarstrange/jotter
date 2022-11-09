@@ -1,6 +1,6 @@
 # Hola! jotters
 
-[**jotter**](https://jotter.onrender.com) is a note taking app made with node.js. It is super responsive and has a friendly UI ( I Hope 👽).
+[**jotter**](https://jotter.tk) is a note taking app made with node.js. It is super responsive and has a friendly UI ( I Hope 👽).
 
 ## Changelog:
 
