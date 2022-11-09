@@ -15,45 +15,39 @@
     <button id="rnotebtn" title="Reload" class="btn btn-dark rounded-circle">
       <i class="fa fa-redo-alt" aria-hidden="true"></i>
     </button>
-    <div class="page-container">
-      <div class="content-wrap">
-        <!-- Header -->
-        <div class="container text-center header">
-          <img class="bgimg" src="/img/background.png" alt="logo" />
-          <h1>jotter</h1>
-          <p>fact dump and jottt up</p>
+
+    <!-- Header -->
+    <div class="container text-center header">
+      <img class="bgimg" src="/img/background.png" alt="logo" />
+      <h1>jotter</h1>
+      <p>fact dump and jottt up</p>
+    </div>
+    <!-- Add Note -->
+    <div class="container add-note">
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="fact dump here"
+          id="cnotetitle"
+          onfocus="addFocus()"
+        />
+        <div class="input-group-append">
+          <button title="Add" class="btn btn-dark" type="button" id="cnotebtn">
+            <i class="fa fa-plus"></i>
+          </button>
         </div>
-        <!-- Add Note -->
-        <div class="container add-note">
-          <div class="input-group mb-3">
-            <input
-              type="text"
-              class="form-control"
-              placeholder="fact dump here"
-              id="cnotetitle"
-              onfocus="addFocus()"
-            />
-            <div class="input-group-append">
-              <button
-                title="Add"
-                class="btn btn-dark"
-                type="button"
-                id="cnotebtn"
-              >
-                <i class="fa fa-plus"></i>
-              </button>
-            </div>
-          </div>
-          <textarea
-            class="form-control container inActive"
-            id="cnotetxt"
-            rows="3"
-            placeholder="elaborate your idea"
-          ></textarea>
-        </div>
-        <!-- Note Body, mostly appended from script.js-->
-        <div class="container notedisplay">
-          <!-- <div class="container jotstyle">
+      </div>
+      <textarea
+        class="form-control container inActive"
+        id="cnotetxt"
+        rows="3"
+        placeholder="elaborate your idea"
+      ></textarea>
+    </div>
+    <!-- Note Body, mostly appended from script.js-->
+    <div class="container notedisplay">
+      <!-- <div class="container jotstyle">
         <h3 class="ntitle">Sample Jot</h3>
         <p class="ntext">This is sample text from the jot</p>
         <p class="nID d-none">here is the id</p>
@@ -66,16 +60,12 @@
           <i class="fas fa-times-circle"></i>
         </button>
       </div> -->
-        </div>
-      </div>
-      <footer>
-        <div class="container footer">
-          <p>
-            made with 🖤 by
-            <a href="https://thuvasooriya.tk" target="_blank">ma.strange</a>
-          </p>
-        </div>
-      </footer>
+    </div>
+    <div class="footer">
+      <p>
+        made with 🖤 by
+        <a href="https://thuvasooriya.tk" target="_blank">ma.strange</a>
+      </p>
     </div>
   </body>
   <script src="/lib/jquery/jquery-3.6.0.min.js"></script>
