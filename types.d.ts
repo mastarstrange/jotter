@@ -1,20 +1,26 @@
-export {}
+export {};
 
-import { jwt } from '@elysiajs/jwt'
-import { Context } from 'elysia'
+import { jwt } from "@elysiajs/jwt";
+import { Context } from "elysia";
 
 declare global {
   type RegBody = {
-    name: string
-    email: string
-    password: string
-    isAdmin?: boolean
-  }
+    name: string;
+    email: string;
+    password: string;
+    isAdmin?: boolean;
+  };
 
   type LoginBody = {
-    email: string
-    password: string
-  }
+    email: string;
+    password: string;
+  };
 
-  type UpdateBody = {} & Partial<RegBody>
+  type UpdateBody = {} & Partial<RegBody>;
+
+  type NoteBody = {
+    title: string;
+    text: string;
+    // tags: Array<string>;
+  };
 }

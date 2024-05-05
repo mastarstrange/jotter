@@ -1,29 +1,51 @@
-# Hola! jotters
+# hola! jotters
 
-[**jotter**](https://jotter.tk) is a note taking app made with node.js. It is super responsive and has a friendly UI ( I Hope 👽).
+[**jotter**](https://thuvasooriya.me/jotter) is a note taking app made with bun and elysiajs. it is super responsive and has a friendly ui (i hope 👽).
+made with lots of 🖤 by [thuvasooriya](https://thuvasooriya.me)
 
-## Changelog:
+## changelog:
+
+- ### v 1.2.8
+
+  - migrating to bun and elysiajs
+  - moved to typescript cause why not
+  - adding users schema
+  - adding jwt
+  - adding logging
 
 - ### v 1.2.0
-  - Migrated from Heroku to Render (cause you know Heroku fudged us)
-  - Migrated from npm to pnpm (Will update to bun when it's more stable)
 
-## Additional Info
+  - migrated from heroku to render
+  - migrated from npm to pnpm
 
-Made with lots of 🖤 by [Thuva Sooriya](https://thuvasooriya.tk)
+- ### v 1.1.0
+  - i don't remember what i did here
 
-And also with the following critters :)
+## stack info
 
-- HTML
-- CSS, Bootstrap, fa icons
-- JS, jQuery and some minor plugins.
-- node.js with pnpm
-- mongoDB (mongoose, atlas)
-- more on the app
+- html, css, js, ajax, bootstrap, fa icons
+- ts, jquery and some minor plugins.
+- bun
+- elysiajs
+- mongodb - mongoose
+- jwt, jose, picocolors
 
-### mongodb setup
+## todo
+
+- [ ] fix swagger
+- [ ] add tests
+- [ ] migrating from html?
+- [ ] simplify logic
+- [ ] host in some domain
+- [ ] integrate google keep
+- [ ] add user auth and jwt
+- [ ] helpful console logs
+
+### mongodb notes
 
 [install community edition to test locally](https://www.mongodb.com/docs/manual/administration/install-community/)
+
+mac specific:
 
 ```shell
 brew tap mongodb/brew
@@ -34,10 +56,6 @@ brew install mongodb-community@7.0
 brew services start mongodb/brew/mongodb-community
 brew services stop mongodb-community@7.0
 ```
-
-### Have fun learning.
-
-See ya on the other side. ✌🏽
 
 ### refs
 

@@ -1,31 +1,29 @@
-import { Document, Schema, model } from 'mongoose'
-
-console.log('evaluating note.model')
+import { Document, Schema, model } from "mongoose";
 
 interface Note extends Document {
-    title: string
-    text: string
-    tags: Array<string>
+  title: string;
+  text: string;
+  // tags: Array<string>;
 }
 const noteSchema = new Schema<Note>(
-{
+  {
     title: {
-        type: String,
-        required: [true, 'Jot Something'],
+      type: String,
+      required: [true, "Jot Something"],
     },
     text: {
-        type: String,
+      type: String,
     },
-    tags: {
-        type: [String], // Change the type to SchemaTypeOptions<string[]>
-        default: [],
-    },
-},
+    // tags: {
+    //   type: [String], // Change the type to SchemaTypeOptions<string[]>
+    //   default: [],
+    // },
+  },
   {
     timestamps: true,
   }
-)
+);
 
-const note = model<Note>('note', noteSchema)
+const note = model<Note>("note", noteSchema);
 
-export default note
+export default note;
