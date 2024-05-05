@@ -21,7 +21,19 @@ And also with the following critters :)
 - mongoDB (mongoose, atlas)
 - more on the app
 
-### You can see more of my work [Here!](https://thuvasooriya.tk)
+### mongodb setup
+
+[install community edition to test locally](https://www.mongodb.com/docs/manual/administration/install-community/)
+
+```shell
+brew tap mongodb/brew
+brew update
+brew install mongodb-community@7.0
+
+
+brew services start mongodb/brew/mongodb-community
+brew services stop mongodb-community@7.0
+```
 
 ### Have fun learning.
 
