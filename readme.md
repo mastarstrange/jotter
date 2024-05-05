@@ -26,3 +26,11 @@ And also with the following critters :)
 ### Have fun learning.
 
 See ya on the other side. ✌🏽
+
+### refs
+
+[bun crud with elysiajs and mongodb](https://mirzaleka.medium.com/bun-crud-api-with-elysia-js-mongodb-10e73d484723)
+
+[if you wanna use express instead of elysia](https://blog.bitsrc.io/building-an-api-using-express-js-mongodb-bun-cbac231d1cd3)
+
+[elysia api starter](https://github.com/ProMehedi/elysia-api-starter)
