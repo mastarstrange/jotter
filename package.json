@@ -3,14 +3,15 @@
   "version": "1.2.8",
   "description": "nice simple note taker",
   "author": {
-    "name": "thuva sooriya",
+    "name": "thuvasooriya",
     "email": "thuvaragan28@gmail.com",
     "url": "https://thuvasooriya.me"
   },
   "license": "MIT",
   "module": "src/index.ts",
   "scripts": {
-    "dev": "bun run --watch src/index.ts"
+    "dev": "bun run --watch src/index.ts",
+    "start": "bun run src/index.ts"
   },
   "dependencies": {
     "@elysiajs/cors": "^1.0.2",

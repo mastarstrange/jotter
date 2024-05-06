@@ -1,6 +1,6 @@
 # hola! jotters
 
-[**jotter**](https://thuvasooriya.me/jotter) is a note taking app made with bun and elysiajs. it is super responsive and has a friendly ui (i hope 👽).
+[**jotter**](https://thuvasooriya.me/goto/jotter) is a note taking app made with bun and elysiajs. it is super responsive and has a friendly ui (i hope 👽).
 made with lots of 🖤 by [thuvasooriya](https://thuvasooriya.me)
 
 ## changelog:
