@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for sooriya-jotter on 2024-05-17T10:19:36+05:30
+# fly.toml app configuration file generated for jotter4u on 2024-05-17T13:53:42+05:30
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'sooriya-jotter'
+app = 'jotter4u'
 primary_region = 'sin'
 
 [build]
